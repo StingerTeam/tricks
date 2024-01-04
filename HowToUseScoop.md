@@ -2,11 +2,11 @@
 
 ## 介绍
 
-Scoop是Windows下的包管理器，类似于Linux下的apt-get、yum等，可以方便地安装和更新一些常用软件，尤其是开源软件，以及一些运行环境，如node.js、python、java、php等。
+Scoop 是 Windows 下的包管理器，类似于 Linux 下的 apt-get、yum 等，可以方便地安装和更新一些常用软件，尤其是开源软件，以及一些运行环境，如 node.js、python、java、php 等。
 
-使用Scoop可以方便的安装、卸载、更新软件，更换软件版本，而且可以自动处理依赖关系。
+使用 Scoop 可以方便的安装、卸载、更新软件，更换软件版本，而且可以自动处理依赖关系。
 
-## GitHub仓库
+## GitHub 仓库
 
 <https://github.com/ScoopInstaller/Scoop>
 
@@ -24,9 +24,9 @@ Advanced installation instruction and full documentation of the installer are av
 
 [ScoopInstaller/Install](https://github.com/ScoopInstaller/Install) 中提供了高级安装说明和安装程序的完整文档。如果您对安装有疑问，请在那里创建新问题。
 
-## 应用程序桶(Bucket)
+## 应用程序桶 (Bucket)
 
-Scoop使用桶来组织应用程序。默认情况下，Scoop安装`main`桶
+Scoop 使用桶来组织应用程序。默认情况下，Scoop 安装 `main` 桶
 
 推荐的桶：`extras`, `versions`
 
@@ -51,7 +51,7 @@ scoop search <app_name>
 例如：
 
 ```powershell
-# 搜索java
+# 搜索 java
 scoop search openjdk
 ```
 
@@ -93,7 +93,7 @@ scoop install <app_name>
 scoop install openjdk17
 ```
 
-使用Scoop安装应用程序后会自动添加到环境变量中，一般可以直接在命令行中使用（针对非图形界面软件）。
+使用 Scoop 安装应用程序后会自动添加到环境变量中，一般可以直接在命令行中使用（针对非图形界面软件）。
 
 ## 安装特定版本的应用程序
 
@@ -119,7 +119,7 @@ scoop reset <app_name>
 scoop reset python@3.11.7
 ```
 
-说明：reset可以理解为重新配置环境变量，即将`python`命令指向指定版本的python可执行文件。
+说明：reset 可以理解为重新配置环境变量，即将 `python` 命令指向指定版本的 python 可执行文件。
 
 ## 卸载应用程序
 
